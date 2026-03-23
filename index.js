@@ -173,9 +173,34 @@ function generarGrafico() {
     console.log("Gráfico - Datos:", finalData.length, "series | Puntos:", allDates.length, "| MinX:", new Date(minX).toLocaleString(), "| MaxX:", new Date(maxX).toLocaleString(), "| MinY:", minY.toFixed(2), "| MaxY:", maxY.toFixed(2));
     
     // 🔥 mostrar detalle de cada serie
+    let htmlDatos = "<h4>📊 Datos Graficados:</h4>";
     finalData.forEach((ds, idx) => {
         console.log(`  Serie ${idx + 1}: ${ds.label} - ${ds.data.length} puntos`);
+        htmlDatos += `<details style="margin-bottom:10px; cursor:pointer;">
+            <summary style="font-weight:bold;">📈 ${ds.label} (${ds.data.length} puntos)</summary>
+            <table style="font-size:12px; width:100%; margin-top:8px; border-collapse:collapse;">
+                <thead style="background:#e0e0e0;">
+                    <tr>
+                        <th style="padding:5px; text-align:left; border:1px solid #ccc;">Fecha</th>
+                        <th style="padding:5px; text-align:right; border:1px solid #ccc;">Valor</th>
+                    </tr>
+                </thead>
+                <tbody>`;
+        
+        ds.data.forEach(point => {
+            let fecha = new Date(point.x).toLocaleString("es-AR");
+            htmlDatos += `<tr>
+                <td style="padding:5px; border:1px solid #ccc;">${fecha}</td>
+                <td style="padding:5px; text-align:right; border:1px solid #ccc;">${point.y}</td>
+            </tr>`;
+        });
+        
+        htmlDatos += `</tbody>
+            </table>
+        </details>`;
     });
+    
+    document.getElementById("datosGrafico").innerHTML = htmlDatos;
 
     chart = new Chart(document.getElementById("grafico"), {
         type: "line",

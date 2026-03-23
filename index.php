@@ -163,6 +163,7 @@ if (isset($_SESSION['data'])) {
             </div>
             <button onclick="generarGrafico()">Actualizar gráfico</button>
             <canvas id="grafico" style="margin-top:30px;"></canvas>
+            <div id="datosGrafico" style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:5px; max-height:300px; overflow-y:auto;"></div>
 
         <?php endif; ?>
 
