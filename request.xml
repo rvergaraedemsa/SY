@@ -14,32 +14,32 @@
               <ser:MeasurementPointName>413 MT880_PROD_94134458_172.33.10.182</ser:MeasurementPointName>
               <ser:ResultTypeNames>
                  	<arr:string>Active_Abs_MaxDemand_CUM_BP1</arr:string>
-				<arr:string>Active_Abs_MaxDemand_CUM_T1_BP1</arr:string>
-				<arr:string>Active_Abs_MaxDemand_CUM_T2_BP1</arr:string>
-				<arr:string>Active_Abs_MaxDemand_CUM_T3_BP1</arr:string>
-				<arr:string>Active_Minus_MaxDemand_CUM_T1_BP1</arr:string>
-				<arr:string>Active_Minus_MaxDemand_CUM_T2_BP1</arr:string>
-				<arr:string>Active_Minus_MaxDemand_CUM_T3_BP1</arr:string>
-				<arr:string>Active_Plus_MaxDemand_CUM_T1_BP1</arr:string>
-				<arr:string>Active_Plus_MaxDemand_CUM_T2_BP1</arr:string>
-				<arr:string>Active_Plus_MaxDemand_CUM_T3_BP1</arr:string>
-				
-				<arr:string>ActiveEnergy_Abs_CUM_BP1</arr:string>
-				<arr:string>ActiveEnergy_Abs_CUM_BP1_T1</arr:string>
-				<arr:string>ActiveEnergy_Abs_CUM_BP1_T2</arr:string>
-				<arr:string>ActiveEnergy_Abs_CUM_BP1_T3</arr:string>
-				<arr:string>ActiveEnergy_Minus_CUM_BP1</arr:string>
-				<arr:string>ActiveEnergy_Minus_CUM_T1_BP1</arr:string>
-				<arr:string>ActiveEnergy_Minus_CUM_T2_BP1</arr:string>
-				<arr:string>ActiveEnergy_Minus_CUM_T3_BP1</arr:string>
-				
-				<arr:string>ActiveEnergy_Plus_CUM_BP1</arr:string>
-				<arr:string>ActiveEnergy_Plus_CUM_T1_BP1</arr:string>
-				<arr:string>ActiveEnergy_Plus_CUM_T2_BP1</arr:string>
-				<arr:string>ActiveEnergy_Plus_CUM_T2_BP1</arr:string>
-				
-				<arr:string>AparentEnergy_Minus_CUM_BP1</arr:string>
-				<arr:string>AparentEnergy_Plus_CUM_BP1</arr:string>                              
+                  <arr:string>Active_Abs_MaxDemand_CUM_T1_BP1</arr:string>
+                  <arr:string>Active_Abs_MaxDemand_CUM_T2_BP1</arr:string>
+                  <arr:string>Active_Abs_MaxDemand_CUM_T3_BP1</arr:string>
+                  <arr:string>Active_Minus_MaxDemand_CUM_T1_BP1</arr:string>
+                  <arr:string>Active_Minus_MaxDemand_CUM_T2_BP1</arr:string>
+                  <arr:string>Active_Minus_MaxDemand_CUM_T3_BP1</arr:string>
+                  <arr:string>Active_Plus_MaxDemand_CUM_T1_BP1</arr:string>
+                  <arr:string>Active_Plus_MaxDemand_CUM_T2_BP1</arr:string>
+                  <arr:string>Active_Plus_MaxDemand_CUM_T3_BP1</arr:string>
+                  
+                  <arr:string>ActiveEnergy_Abs_CUM_BP1</arr:string>
+                  <arr:string>ActiveEnergy_Abs_CUM_BP1_T1</arr:string>
+                  <arr:string>ActiveEnergy_Abs_CUM_BP1_T2</arr:string>
+                  <arr:string>ActiveEnergy_Abs_CUM_BP1_T3</arr:string>
+                  <arr:string>ActiveEnergy_Minus_CUM_BP1</arr:string>
+                  <arr:string>ActiveEnergy_Minus_CUM_T1_BP1</arr:string>
+                  <arr:string>ActiveEnergy_Minus_CUM_T2_BP1</arr:string>
+                  <arr:string>ActiveEnergy_Minus_CUM_T3_BP1</arr:string>
+                  
+                  <arr:string>ActiveEnergy_Plus_CUM_BP1</arr:string>
+                  <arr:string>ActiveEnergy_Plus_CUM_T1_BP1</arr:string>
+                  <arr:string>ActiveEnergy_Plus_CUM_T2_BP1</arr:string>
+                  <arr:string>ActiveEnergy_Plus_CUM_T2_BP1</arr:string>
+                  
+                  <arr:string>AparentEnergy_Minus_CUM_BP1</arr:string>
+                  <arr:string>AparentEnergy_Plus_CUM_BP1</arr:string>                              
               </ser:ResultTypeNames>
            </ser:MeasurementPointResultTypeReferences>
         </ser:measurementPointResultTypes>
