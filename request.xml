@@ -1,0 +1,57 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://iskraemeco.si/services" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+  <soapenv:Header/>
+  <soapenv:Body>
+     <ser:QueryResults>
+        <ser:measurementPointResultTypes>
+           <!-- <ser:MeasurementPointResultTypeReferences>
+              <ser:MeasurementPointName>413 MT880_LAB_90385962_172_33_3_201</ser:MeasurementPointName>
+              <ser:ResultTypeNames>
+                 <arr:string>ActiveEnergy_Plus</arr:string>
+              </ser:ResultTypeNames>
+           </ser:MeasurementPointResultTypeReferences>
+           -->
+           <ser:MeasurementPointResultTypeReferences>
+              <ser:MeasurementPointName>413 MT880_PROD_94134458_172.33.10.182</ser:MeasurementPointName>
+              <ser:ResultTypeNames>
+                 	<arr:string>Active_Abs_MaxDemand_CUM_BP1</arr:string>
+				<arr:string>Active_Abs_MaxDemand_CUM_T1_BP1</arr:string>
+				<arr:string>Active_Abs_MaxDemand_CUM_T2_BP1</arr:string>
+				<arr:string>Active_Abs_MaxDemand_CUM_T3_BP1</arr:string>
+				<arr:string>Active_Minus_MaxDemand_CUM_T1_BP1</arr:string>
+				<arr:string>Active_Minus_MaxDemand_CUM_T2_BP1</arr:string>
+				<arr:string>Active_Minus_MaxDemand_CUM_T3_BP1</arr:string>
+				<arr:string>Active_Plus_MaxDemand_CUM_T1_BP1</arr:string>
+				<arr:string>Active_Plus_MaxDemand_CUM_T2_BP1</arr:string>
+				<arr:string>Active_Plus_MaxDemand_CUM_T3_BP1</arr:string>
+				
+				<arr:string>ActiveEnergy_Abs_CUM_BP1</arr:string>
+				<arr:string>ActiveEnergy_Abs_CUM_BP1_T1</arr:string>
+				<arr:string>ActiveEnergy_Abs_CUM_BP1_T2</arr:string>
+				<arr:string>ActiveEnergy_Abs_CUM_BP1_T3</arr:string>
+				<arr:string>ActiveEnergy_Minus_CUM_BP1</arr:string>
+				<arr:string>ActiveEnergy_Minus_CUM_T1_BP1</arr:string>
+				<arr:string>ActiveEnergy_Minus_CUM_T2_BP1</arr:string>
+				<arr:string>ActiveEnergy_Minus_CUM_T3_BP1</arr:string>
+				
+				<arr:string>ActiveEnergy_Plus_CUM_BP1</arr:string>
+				<arr:string>ActiveEnergy_Plus_CUM_T1_BP1</arr:string>
+				<arr:string>ActiveEnergy_Plus_CUM_T2_BP1</arr:string>
+				<arr:string>ActiveEnergy_Plus_CUM_T2_BP1</arr:string>
+				
+				<arr:string>AparentEnergy_Minus_CUM_BP1</arr:string>
+				<arr:string>AparentEnergy_Plus_CUM_BP1</arr:string>                              
+              </ser:ResultTypeNames>
+           </ser:MeasurementPointResultTypeReferences>
+        </ser:measurementPointResultTypes>
+        <ser:intervalStart>2025-10-01T00:00:00Z</ser:intervalStart>
+        <ser:intervalEnd>2026-03-01T23:00:00Z</ser:intervalEnd>
+        <ser:sourceFilter>
+           <ser:Measured>true</ser:Measured>
+           <ser:Manual>true</ser:Manual>
+           <ser:Aggregated>true</ser:Aggregated>
+           <ser:Imported>true</ser:Imported>
+           <ser:Estimated>true</ser:Estimated>
+        </ser:sourceFilter>    
+      </ser:QueryResults>
+  </soapenv:Body>
+</soapenv:Envelope>
